@@ -1,5 +1,5 @@
 {% set name = "gdspy" %}
-{% set version = "1.6" %}
+{% set version = "1.6.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.zip
-  sha256: 583abc031537fa81340510823623ec8aa6ec023423542c4aad4686b3e7b9d163
+  sha256: 7d60977844b8556fe18d0c70ca6e9df49f18087fdd7774916699b09448b7ff9b
 
 build:
-  number: 2
-  script: "{{ PYTHON }} -m pip install . -vv"
+  number: 0
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   build:
@@ -31,7 +31,7 @@ about:
   home: https://github.com/heitzmann/gdspy
   license: BSL-1.0
   license_file: LICENSE.txt
-  summary: 'A Python module for creation and manipulation of GDSII stream files'
+  summary: A Python module for creation and manipulation of GDSII stream files
 
   description: |
     Gdspy is a Python module for creation and manipulation of GDSII stream
