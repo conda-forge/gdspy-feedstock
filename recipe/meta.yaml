@@ -1,5 +1,5 @@
 {% set name = "gdspy" %}
-{% set version = "1.6.2" %}
+{% set version = "1.6.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.zip
-  sha256: 304d6db0a3862df49f5f08b0388d11d4ab3842ca958f9f69854882c138207655
+  sha256: efde05a89911334ddabef460c0ad15ee19474476008210f71ac5301917859bee
 
 build:
   number: 0
