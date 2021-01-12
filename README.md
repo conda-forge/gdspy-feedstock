@@ -237,5 +237,5 @@ Feedstock Maintainers
 =====================
 
 * [@heitzmann](https://github.com/heitzmann/)
-* [@willsALMANj](https://github.com/willsALMANj/)
+* [@wshanks](https://github.com/wshanks/)
 
